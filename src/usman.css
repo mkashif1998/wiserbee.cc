@@ -1,0 +1,281 @@
+.careersHero {
+  background-color: #eef0fe;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  border-radius: 15px !important;
+}
+.careerHeroTextSection {
+  margin-left: 35%;
+}
+.careerHeroHeading {
+  font-family: Urbanist;
+  font-weight: 300;
+  font-size: 35px;
+}
+.careerHero_wiser_color {
+  color: #251963;
+  font-family: Urbanist;
+  font-weight: 400;
+}
+.pragraphSty {
+  color: #4b4b4b;
+  font-family: Manrope;
+  font-size: 11px;
+}
+.CareerHeroMain {
+  background-color: rgb(247, 252, 255);
+  margin: 1rem 2rem;
+  width: auto;
+}
+
+.jobsCard {
+  margin-bottom: 22px !important;
+  border-radius: 9px !important;
+}
+.jobsCard h4 {
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(43, 43, 43, 1);
+}
+.jobsCard {
+  border: 1.5px solid #e2e2e2 !important;
+  background-color: #f7fcff;
+}
+
+.jobsCard:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border: 1.5px solid #f7fcff !important;
+  background-color: #fff;
+}
+
+.styleApplyNowBtn {
+  color: white;
+  width: 80px;
+  background-color: #251963;
+  border: 1px solid #251963;
+  border-radius: 15.94px;
+  font-size: 10px;
+  font-weight: 500 !important;
+  padding: 5px 5px;
+}
+
+.styleViewDetailBtn {
+  color: black;
+  width: 80px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 15.94px;
+  font-size: 10px;
+  font-weight: 500 !important;
+  padding: 5px 5px;
+}
+
+.careerJobTitle {
+  color: #2b2b2b;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.careerTechnTime {
+  font-size: 10px;
+  font-weight: 500;
+  background-color: #eef6ff;
+  border-radius: 7px;
+  font-family: "Manrope";
+  padding: 6px;
+  margin: 0;
+  color: #2b2b2b;
+}
+
+.career_btn {
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 30px;
+  background-color: #251963;
+  font-family: "Manrope";
+  color: white;
+  border: 2px solid #251963;
+  box-shadow: 0px 19px 26px -9px #0000002b;
+}
+.career_btn:hover {
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 30px;
+  color: #251963;
+  border: 2px solid #251963;
+  font-family: "Manrope";
+  background-color: white;
+}
+
+.career_p_2 {
+  font-family: "Manrope";
+  color: #2b2b2b;
+  font-size: 11px;
+}
+
+.circle_career:hover {
+  background-color: #251963;
+  color: white !important;
+}
+.circle_career {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #2b2b2b;
+  color: #2b2b2b;
+}
+.career_p_1 {
+  font-family: "Urbanist";
+  color: #251963;
+  font-size: 22px;
+}
+.border_right_career {
+  border-right: 2px solid #f1f1f1;
+}
+.careers_h3 {
+  color: #251963;
+  font-family: "Urbanist";
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.careers_h3_1 {
+  color: #2b2b2b;
+  font-family: "Urbanist";
+  font-size: 20px;
+}
+
+.left_padding_ul {
+  padding-left: 2rem;
+}
+.career_p_4 {
+  color: #251963;
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.careers_h3_2 {
+  color: #2b2b2b;
+  font-family: "Urbanist";
+  font-size: 22px;
+}
+
+.contactPage_h3 {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Urbanist";
+}
+.carrierDetails {
+  background-color: #f7fcff;
+}
+
+.career_main_box {
+  box-shadow: 0px 4px 22px 0px #00000017;
+  background-color: #fff;
+}
+
+.CareerPaginationLeftBtn {
+  background-color: #251963 !important;
+  border: none;
+  color: white;
+  padding: 7px;
+  border-radius: 6px;
+}
+
+.CareerPaginationRightBtn {
+  background-color: #251963 !important;
+  border: none;
+  color: white;
+  padding: 7px;
+  border-radius: 6px;
+}
+
+.careerPageJobscard.active {
+  background-color: #eef6ff;
+  border-radius: 6px;
+}
+
+.careerPageJobscard {
+  background-color: transparent;
+  border: none;
+  width: 8%;
+  font-size: 19px;
+}
+
+.btn_carrers {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+@media screen and (max-width: 576px) {
+  .btn_carrers {
+    display: block;
+    align-items: center;
+  }
+  .contactPage_h3 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .careers_h3 {
+    font-size: 20px;
+  }
+  .careers_h3_1 {
+    font-size: 16px;
+    padding-top: 8px;
+    padding-left: 5px;
+  }
+}
+@media screen and (max-width: 768px) {
+
+.border_right_career {
+  border-right: none;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1045px) {
+  .careerHeroHeading {
+    font-family: Urbanist;
+    font-weight: 300;
+    font-size: 23px;
+  }
+}
+@media (min-width: 300px) and (max-width: 767.98px) {
+  .careersHero {
+    padding: 10px 0px !important;
+  }
+  .text_align_sm {
+    text-align: center !important;
+  }
+  .careerHeroHeading {
+    font-size: 16px !important;
+    margin-top: 3px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .careerHeroTextSection {
+    margin-left: 0%;
+  }
+}
+@media (max-width: 576px) {
+  .careerJobTitle {
+    font-size: 10px;
+    text-wrap: wrap;
+    margin-top: 5px !important;
+  }
+}
+@media (max-width: 425px) {
+  .CareerHeroMain {
+    background-color: rgb(247, 252, 255);
+    margin: 0px 0px !important;
+  }
+}
