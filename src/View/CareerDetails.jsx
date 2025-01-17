@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const CareerDetails = () => {
   const openEmail = () => {
-    window.location.href = "mailto:hr@swatiholdings.com";
+    window.location.href = "mailto:info@wiserbee.com";
   };
   return (
     <>
@@ -107,7 +107,7 @@ const CareerDetails = () => {
                     <div className="d-flex gap-4">
                       <div className="circle_career">
                         <Link
-                          to="https://www.facebook.com/techswati/?_rdr"
+                          to=""
                           className="circle_career "
                         >
                           {faceIcon}
@@ -115,14 +115,14 @@ const CareerDetails = () => {
                       </div>
 
                       <div className="circle_career">
-                        <Link to="/" className="circle_career ">
+                        <Link to="https://twitter.com/wiser_bee5" className="circle_career ">
                           {twitIcon}
                         </Link>
                       </div>
 
                       <div className="circle_career">
                         <Link
-                          to="https://pk.linkedin.com/company/swatitechnologies"
+                          to="https://www.linkedin.com/company/wiserbee"
                           className="circle_career "
                         >
                           {linkIcon}

@@ -8,7 +8,7 @@ const JobsCard = (props) => {
     });
   };
   const openEmail = () => {
-    window.location.href = "mailto:hr@swatiholdings.com";
+    window.location.href = "mailto:info@wiserbee.com";
   };
   const { title, icon, timing, tech, field, smallIcon } = props;
   return (
